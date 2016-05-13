@@ -1,1 +1,9 @@
+<?php
 
+function greeting(){
+	
+}
+
+function say_hello(){
+	
+}

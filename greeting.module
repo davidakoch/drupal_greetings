@@ -12,6 +12,6 @@ function greeting_menu() {
 }
 
 function say_hello(){
-	return '<p>Hello, Welcome to My Blog!</p>';
+	return '<p style="font-weight:bold;font-style:italic;">Hello, Welcome to My Blog!</p>';
 	
 }

@@ -21,3 +21,7 @@ function say_hello(){
 	return '<p style="font-weight:bold;font-style:italic;">Hello, Welcome to My Blog!</p>';
 	
 }
+
+function say_goodbye() {
+	return '<p style="font-weight:bold;font-style:italic;">Please Visit Us Again!</p>'
+}

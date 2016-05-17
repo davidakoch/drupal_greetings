@@ -8,6 +8,12 @@ function greeting_menu() {
 			'access callback' => TRUE,
 			'type' => MENU_NORMAL_ITEM,
 		);
+	$items['goodbye'] = array(
+			'title' => "Goodbye Friend!"
+			'page callback' => 'say_goodbye',
+			'access callback' => TRUE, 
+			'type' => MENU_NORMAL_ITEM,
+		);
 	return $items; 
 }
 

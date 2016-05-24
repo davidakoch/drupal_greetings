@@ -25,3 +25,7 @@ function say_hello(){
 function say_goodbye() {
 	return '<p style="font-weight:bold;font-style:italic;">Please Visit Us Again!</p>';
 }
+
+function greeting_user_login() {
+	$_GET['destination'] = 'hello_friend';
+}

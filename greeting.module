@@ -29,3 +29,7 @@ function say_goodbye() {
 function greeting_user_login() {
 	$_GET['destination'] = 'hello_friend';
 }
+
+funtion greeting_user_logout(){
+	$_GET['destination'] = 'goodbye';
+}
